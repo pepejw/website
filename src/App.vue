@@ -24,12 +24,14 @@ export default {
         {
           link: { text: 'home' },
           pageTitle: 'homepage',
-          content: "welcome to pepe's website!"
+          content: "welcome to pepe's website!",
+          mastoLink: ''
         },
         {
           link: { text: 'contact' },
           pageTitle: 'contact me',
-          content: 'reach out to me at pepejw@proton.me!'
+          content: 'reach out to me at pepejw@proton.me!',
+          mastoLink: '<a rel="me" href="https://tech.lgbt/@aeron69420">Mastodon</a>'
         }
       ]
     }
